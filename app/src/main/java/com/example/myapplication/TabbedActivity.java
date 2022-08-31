@@ -24,9 +24,9 @@ public class TabbedActivity extends AppCompatActivity {
         setContentView(R.layout.activity_tabbed);
 
         TabLayout tab = findViewById(R.id.tabs);
+        ViewPager viewPager = findViewById(R.id.view_pager);
 
         SectionsPagerAdapter sectionsPagerAdapter = new SectionsPagerAdapter(this, getSupportFragmentManager());
-        ViewPager viewPager = binding.viewPager;
         viewPager.setAdapter(sectionsPagerAdapter);
         tabs.setupWithViewPager(viewPager);
         FloatingActionButton fab = binding.fab;
