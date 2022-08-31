@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CE58CD2E"
+    android:backgroundTint="@color/purple_200"
+    tools:context=".admissionoffer">
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="270dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="48dp"
+        android:text="Freelancing Course"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/b3" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="267dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="44dp"
+        android:text="We Offers"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.305"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="270dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="48dp"
+        android:text="Professional Training Courses"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="270dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="48dp"
+        android:text="Research and Development"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/b2" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="270dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="48dp"
+        android:text="Short Training Course"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/b1" />
+</androidx.constraintlayout.widget.ConstraintLayout>
