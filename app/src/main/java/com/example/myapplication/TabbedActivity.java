@@ -25,11 +25,11 @@ public class TabbedActivity extends AppCompatActivity {
 
         TabLayout tab = findViewById(R.id.tabs);
         ViewPager viewPager = findViewById(R.id.view_pager);
+        FloatingActionButton fab = findViewById(R.id.fab);
 
         SectionsPagerAdapter sectionsPagerAdapter = new SectionsPagerAdapter(this, getSupportFragmentManager());
         viewPager.setAdapter(sectionsPagerAdapter);
         tabs.setupWithViewPager(viewPager);
-        FloatingActionButton fab = binding.fab;
 
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
